@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+
+      <a href="#" class="logo">
+        <ion-icon name="shop"></ion-icon>
+        DreamyDepot
+      </a>
+
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+
+
+          <div class="cart-box">
+            <img src="d1.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">long maxi</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.600</div>
+                 <div class="cart-amt">Rs.600</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d2.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">Black maxi</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.1650</div>
+                 <div class="cart-amt">Rs.1650</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d3.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">blue shirt</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.650</div>
+                 <div class="cart-amt">Rs.650</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d6.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">men combo offer</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.2000</div>
+                 <div class="cart-amt">Rs.2000</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d7.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">watch</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.2500</div>
+                 <div class="cart-amt">Rs.2500</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d8.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">smart watch</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.4110</div>
+                 <div class="cart-amt">Rs.4110</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d9.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">Redmi node12pro</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.20000</div>
+                 <div class="cart-amt">Rs.20000</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="d10.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-item-title">oneplus earbud </div>
+              <div class="price-box">
+                <div class="cart-price">Rs.2000</div>
+                 <div class="cart-amt">Rs.2000</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <h2 class="title">Find Your favorites here!!</h2>
+    <div class="shop-content">
+      
+      <div class="item-box">
+        <div class="pic">
+            <img src="d10.jpg" class="item-img"></div>
+        <h2 class="item-title">oneplus earbud</h2>
+        <span class="item-price">Rs.2000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="item-box">
+        <div class="pic">
+            <img src="d1.jpg" class="item-img"></div>
+        <h2 class="item-title">long maxi</h2>
+        <span class="item-price">Rs.600</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      
+      <div class="item-box">
+        <div class="pic">
+            <img src="d2.jpg" class="item-img"></div>
+        <h2 class="item-title">black maxi</h2>
+        <span class="item-price">Rs.1650</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="item-box">
+        <div class="pic">
+            <img src="d3.jpg" class="item-img"></div>
+        <h2 class="item-title">Blue shirt</h2>
+        <span class="item-price">Rs.650</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="item-box">
+        <div class="pic">
+            <img src="d6.jpg" class="item-img"></div>
+        <h2 class="item-title">men combo offer</h2>
+        <span class="item-price"><Rs class="2000"></Rs></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="item-box">
+        <div class="pic">
+            <img src="d7.jpg" class="item-img"></div>
+        <h2 class="item-title">watch</h2>
+        <span class="item-price">Rs.2500</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="item-box">
+        <div class="pic">
+            <img src="d8.jpg" class="item-img"></div>
+        <h2 class="item-title">smart watch</h2>
+        <span class="item-price">Rs.4110</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="item-box">
+        <div class="pic">
+            <img src="d9.jpg" class="item-img"></div>
+        <h2 class="item-title">Redmi node12pro</h2>
+        <span class="item-price">Rs.20000</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+
+
+
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
